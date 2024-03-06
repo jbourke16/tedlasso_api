@@ -1,4 +1,4 @@
-import express from 'ecpress';
+import express from 'express';
 import db from './db/connection.js.';
 import routes from './routes/index.js';
 import cors from 'cors';

@@ -2,7 +2,7 @@ import db from '../db/connection.js';
 import Character from '../models/Character.js';
 import Episode from '../models/Episode.js';
 import Quote from '../models/Quote.js';
-import characterData from '../db/characters/json' assert { type: "json" };
+import characterData from '../db/characters.json' assert { type: "json" };
 import episodeData from '../db/episodes.json' assert { type: "json" };
 import quoteData from '../db/quotes.json' assert { type: "json" };
 
