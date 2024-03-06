@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 mongoose.set("returnOriginal", false);
 
-mongoose.connect("mongodb://localhost:27017/tedlasso_api");
+mongoose.connect("mongodb://localhost:27017/tedlassoapi");
 
 mongoose.connection.on('connected', () => console.log("Connected to database"));
 mongoose.connection.on('disconnected', () => console.log("Disconnected from database"));
