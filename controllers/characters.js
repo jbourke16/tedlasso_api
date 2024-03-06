@@ -63,3 +63,33 @@ export const deleteCharacter = async (req, res) => {
     }
 }
 
+export const getCharacterByName = async (req, res) => {
+    try {
+        const { name } = req.params
+        const character = await Character.findById(name);
+
+        if (character) {
+            return res.json(character);
+        }
+        res.status(404).json({ message: "Character not found." });
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ error: error.message });
+    }
+}
+
+export const getActorByName = async (req, res) => {
+    try {
+        const { actor } = req.params
+        const character = await Character.findById(actor);
+
+        if (character) {
+            return res.json(character);
+        }
+        res.status(404).json({ message: "Actor not found." });
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ error: error.message });
+    }
+}
+

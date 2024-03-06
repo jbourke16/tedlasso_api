@@ -1,5 +1,5 @@
 import express from 'express';
-import db from './db/connection.js.';
+import db from './db/connection.js';
 import routes from './routes/index.js';
 import cors from 'cors';
 import logger from 'morgan';
@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cors());
 app.use(logger());
 
-app.use('/api', routes);
+app.use('/', routes);
 
 db.on("Connected", () => {
     console.clear();

@@ -63,3 +63,17 @@ export const deleteEpisode = async (req, res) => {
     }
 }
 
+export const getEpisodeByTitle = async (req, res) => {
+    try {
+        const { episode } = req.params
+        const episodetitle = await Episode.findById(episode);
+
+        if (episodetitle) {
+            return res.json(episodetitle);
+        }
+        res.status(404).json({ message: "Episode not found." });
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ error: error.message });
+    }
+}

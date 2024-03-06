@@ -3,10 +3,10 @@ import mongoose from 'mongoose';
 const Schema = mongoose.Schema
 
 const episodeSchema = new Schema({
-    'episode-title': {type: String},
-    'episode-number': {type: String},
-    'description': {type: String},
-    'imdb-rating': {type: String}
+    episode: {type: String},
+    episodenumber: {type: String},
+    description: {type: String},
+    imdbrating: {type: String}
 });
 
 export default mongoose.model('episodes', episodeSchema);
