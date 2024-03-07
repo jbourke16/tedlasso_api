@@ -44,6 +44,49 @@ Begin your journey by navigating to the deployed <a href="">Ted Lasso API</a>.
 | quote          | String  | Quote by a character.                         |
 | characterName  | String  | The character who said the quote.             |
 
+## API Endpoints
+
+### GET
+
+To get a list of all characters, the endpoint is "/characters". Example:
+
+```
+http://localhost:4000/characters
+```
+
+To get a list of all episodes, the endpoint is "/episodes". Example:
+
+```
+http://localhost:4000/episodes
+```
+
+To get all quotes, the endpoint is "/quotes".
+Example:
+
+```
+http://localhost:4000/quotes
+```
+
+You can also access individual characters by their character name or by their actor's name. The endpoints would look something like the examples below.
+
+Character name ("/characters/character/character name"):
+
+```
+http://localhost:4000/characters/character/Ted%20Lasso
+```
+
+Actor name ("/characters/actor/ actor name"):
+
+```
+http://localhost:4000/characters/actor/Sarah%20Niles
+```
+
+The response for either of the above examples will look something like this:
+
+<img src="exampleres.png"></img>
+
+
+
 ## Technology Used
 
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS">CORS</a></li>
