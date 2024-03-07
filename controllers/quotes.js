@@ -62,3 +62,18 @@ export const deleteQuote = async (req, res) => {
         res.status(500).json({ error: error.message });
     }
 }
+
+export const getQuoteByQuote = async (req, res) => {
+    try {
+        const { quote } = req.params
+        const quoteByChar = await Quote.findByOne({charQuote: quote});
+
+        if (quoteByChar) {
+            return res.json(quoteByChar);
+        }
+        res.status(404).json({ message: "Quote not found." });
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ error: error.message });
+    }
+}

@@ -66,10 +66,10 @@ export const deleteCharacter = async (req, res) => {
 export const getCharacterByName = async (req, res) => {
     try {
         const { character } = req.params
-        const characters = await Character.findByOne({name: character});
+        const characterName = await Character.findByOne({name: character});
 
         if (character) {
-            return res.json(character);
+            return res.json(characterName);
         }
         res.status(404).json({ message: "Character not found." });
     } catch (error) {
