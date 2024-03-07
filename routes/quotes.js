@@ -8,7 +8,7 @@ router.get('/:id', controllers.getQuote);
 router.post('/', controllers.createQuote);
 router.put('/:id', controllers.updateQuote);
 router.delete('/:id', controllers.deleteQuote);
-router.get('/quotes/:quote', controllers.getQuoteByQuote);
-router.get('/quotes/:characterName', controllers.getQuoteByCharacter);
+router.get('/:quote', controllers.getQuoteByQuote);
+router.get('/:characterName', controllers.getQuoteByCharacter);
 
 export default router;

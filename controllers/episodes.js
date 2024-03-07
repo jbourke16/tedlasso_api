@@ -66,7 +66,7 @@ export const deleteEpisode = async (req, res) => {
 export const getEpisodeByTitle = async (req, res) => {
     try {
         const { episodeName } = req.params
-        const episodeTitle = await Episode.findByOne({episode: episodeName});
+        const episodeTitle = await Episode.findOne({episode: episodeName});
 
         if (episodetitle) {
             return res.json(episodetitle);
