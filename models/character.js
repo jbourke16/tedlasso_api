@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 const Schema = mongoose.Schema
 
 const characterSchema = new Schema({
-    name: {type: String},
+    character: {type: String},
     aliases: [{type: String}],
     actorName: {type: String},
     occupation: [{type: String}],
