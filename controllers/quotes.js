@@ -92,3 +92,17 @@ export const getQuoteByCharacter = async (req, res) => {
         res.status(500).json({ error: error.message });
     }
 }
+
+export const deleteQuoteByName = async (req, res) => {
+    try {
+        const { characterName } = req.params
+        const quote = await Quote.findOneAndDelete(characterName);
+
+        if (deleted) {
+            return res.status(200).send(`Quotes by ${characterName} deleted.`);
+        }
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ error: error.message });
+    }
+}

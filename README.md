@@ -85,6 +85,29 @@ The response for either of the above examples will look something like this:
 
 <img src="exampleres.png"></img>
 
+## Going Full CRUD
+
+### Create
+
+### Read
+
+### Update
+
+### Delete
+
+
+## How to Install
+
+If you'd like to install from this repo, make sure you have Node.js and npm installed on your machine. Then follow the steps below.
+
+1. Clone this repository to your local machine (`git clone SSH key`).
+2. Navigate to the root directory of the project in your terminal.
+3. Run the command `npm install` to install all dependencies listed in the `package.json` file.
+4. To run the project, use the command `npm start`.
+5. To deploy the database with data, run the command `railway run npm run db:seed`.
+
+Note: It's important to make sure you have all the dependencies listed in the `package.json` file installed and correctly configured before running the project. The dependencies used for this project are CORS, Express, and Morgan.
+
 
 
 ## Technology Used
@@ -96,30 +119,6 @@ The response for either of the above examples will look something like this:
 <li><a href="https://www.mongodb.com/docs/mongodb-shell/">MongoDB</a></li>
 <li><a href="https://www.npmjs.com/package/morgan">Morgan</a></li>
 <li><a href="https://www.postman.com/">Postman</a></li>
-
-## Updating
-
-## Creating
-
-## Deleting
-
-
-## How to Install
-
-If you'd like to install from this repo, make sure you have Node.js and npm installed on your machine. Then follow the steps below.
-
-1. Clone this repository to your local machine (`git clone SSH key`).
-2. Navigate to the root directory of the project in your terminal.
-3. Run the command `npm install` to install all dependencies listed in the `package.json` file.
-4. Create a `.env` file at the root of the project and set your environment variables.
-5. To run the project, use the command `npm start`.
-6. To run the project in development mode with hot reloading, use the command `npm run dev`.
-7. To deploy the database with data, run the command `railway run npm run db:seed`.
-
-Note: It's important to make sure you have all the dependencies listed in the `package.json` file installed and correctly configured before running the project.
-
-
-
 
 ## Additional Resources
 

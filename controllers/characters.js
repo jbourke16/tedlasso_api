@@ -93,3 +93,28 @@ export const getActorByName = async (req, res) => {
     }
 }
 
+export const updateCharacterByName = async (req, res) => {
+    try {
+        const { character } = req.params
+        const characterName = await Character.findOneAndUpdate(character, req.body);
+
+        res.status(201).json(characterName);
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ error: error.message });
+    }
+}
+
+export const deleteCharacterByName = async (req, res) => {
+    try {
+        const { character } = req.params
+        const characterName = await Character.findOneAndDelete(character);
+
+        if (deleted) {
+            return res.status(200).send("Character deleted.");
+        }
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ error: error.message });
+    }
+}

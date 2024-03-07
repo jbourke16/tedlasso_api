@@ -77,3 +77,29 @@ export const getEpisodeByTitle = async (req, res) => {
         res.status(500).json({ error: error.message });
     }
 }
+
+export const updateEpisodeByName = async (req, res) => {
+    try {
+        const { episodeName } = req.params
+        const episode = await Episode.findOneAndUpdate(episodeName, req.body);
+
+        res.status(201).json(episode);
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ error: error.message });
+    }
+}
+
+export const deleteEpisodeByName = async (req, res) => {
+    try {
+        const { episodeName } = req.params
+        const episode = await Episode.findOneAndDelete(episodeName);
+
+        if (deleted) {
+            return res.status(200).send("Episode deleted.");
+        }
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ error: error.message });
+    }
+}
