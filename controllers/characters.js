@@ -65,8 +65,8 @@ export const deleteCharacter = async (req, res) => {
 
 export const getCharacterByName = async (req, res) => {
     try {
-        const { name } = req.params
-        const character = await Character.findById(name);
+        const { character } = req.params
+        const characters = await Character.findByOne({name: character});
 
         if (character) {
             return res.json(character);
@@ -80,8 +80,8 @@ export const getCharacterByName = async (req, res) => {
 
 export const getActorByName = async (req, res) => {
     try {
-        const { actor } = req.params
-        const character = await Character.findById(actor);
+        const { actorName } = req.params
+        const character = await Character.findByOne({actor: actorName});
 
         if (character) {
             return res.json(character);

@@ -1,6 +1,6 @@
 [
     {
-        "name": "Ted Lasso",
+        "character": "Ted Lasso",
         "aliases": [
             "Wanker",
             "Stupid Cowboy",
@@ -11,7 +11,7 @@
             "Tim Lasso",
             "Marlboro Man"
         ],
-        "actor": "Jason Sudeikis",
+        "actorName": "Jason Sudeikis",
         "occupation": [
             "Coach"
         ],
@@ -31,11 +31,11 @@
         "image": "https://compote.slate.com/images/a56fc56a-e021-44d2-8502-8d4c168ded6b.jpeg?crop=5616%2C3744%2Cx0%2Cy0&width=1440"
     },
     {
-        "name": "Coach Beard",
+        "character": "Coach Beard",
         "aliases": [
             null
         ],
-        "actor": "Brendan Hunt",
+        "actorName": "Brendan Hunt",
         "occupation": [
             "Assistant Coach"
         ],
@@ -55,13 +55,13 @@
         "image": "https://pyxis.nymag.com/v1/imgs/05a/fb0/9d4503c219f04cb9e035d0e916a09db4b7-ted-lasso-brendan-hunt.2x.rsquare.w400.jpg"
     },
     {
-        "name": "Nathan Shelley",
+        "character": "Nathan Shelley",
         "aliases": [
             "Nate",
             "Nate the Great",
             "Wonder Kid"
         ],
-        "actor": "Nick Mohammed",
+        "actorName": "Nick Mohammed",
         "occupation": [
             "Coach",
             "Kitman"
@@ -81,11 +81,11 @@
         "image": "https://akns-images.eonline.com/eol_images/Entire_Site/2022515/rs_1200x1200-220615093813-1200-Nick_Mohammed_in_Ted_Lasso-Apple_TV_gj.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top"
     },
     {
-        "name": "Roy Kent",
+        "character": "Roy Kent",
         "aliases": [
             null
         ],
-        "actor": "Brett Goldstein",
+        "actorName": "Brett Goldstein",
         "occupation": [
             "AFC Richmond Manager",
             "Assistant Coach (Formerly)",
@@ -106,11 +106,11 @@
         "image": ""
     },
     {
-        "name": "Jamie Tartt",
+        "character": "Jamie Tartt",
         "aliases": [
             "Footballing Tartt"
         ],
-        "actor": "Phil Dunster",
+        "actorName": "Phil Dunster",
         "occupation": [
             "Footballer"
         ],
@@ -132,14 +132,14 @@
         "image": "https://static.wikia.nocookie.net/ted-lasso/images/6/64/Jamie_Tartt_%289%29.jpg/revision/latest?cb=20211005091422"
     },
     {
-        "name": "Rebecca Welton",
+        "character": "Rebecca Welton",
         "aliases": [
             "Stinky",
             "Boss Ass Bitch",
             "Boss",
             "Boss Lady"
         ],
-        "actor": "Hannah Waddingham",
+        "actorName": "Hannah Waddingham",
         "occupation": [
             "AFC Richmond Owner"
         ],
@@ -158,11 +158,11 @@
         "image": "https://media.vanityfair.com/photos/61281ef57ef5eedcf09a5a28/1:1/w_1918,h_1918,c_limit/Ted_Lasso_Photo_020506.jpg"
     },
     {
-        "name": "Keeley Jones",
+        "character": "Keeley Jones",
         "aliases": [
             null
         ],
-        "actor": "Juno Temple",
+        "actorName": "Juno Temple",
         "occupation": [
             "Model",
             "Social Influencer",
@@ -186,11 +186,11 @@
         "image": "https://www.refinery29.com/images/11321646.jpg?format=webp&width=1440&height=1728&quality=85"
     },
     {
-        "name": "Leslie Higgins",
+        "character": "Leslie Higgins",
         "aliases": [
             null
         ],
-        "actor": "Jeremy Swift",
+        "actorName": "Jeremy Swift",
         "occupation": [
             "Director of Communications",
             "Director of Football",
@@ -209,11 +209,11 @@
         "image": "https://nypost.com/wp-content/uploads/sites/2/2021/09/jeremy-swift-2.jpg?quality=75&strip=all&w=1024"
     },
     {
-        "name": "Dani Rojas",
+        "character": "Dani Rojas",
         "aliases": [
             null
         ],
-        "actor": "Cristo Fernandez",
+        "actorName": "Cristo Fernandez",
         "occupation": [
             "Footballer"
         ],
@@ -232,11 +232,11 @@
         "image": "https://static.wikia.nocookie.net/ted-lasso/images/d/d4/Dani_Rojas_%2814%29.jpg/revision/latest?cb=20211005083256"
     },
     {
-        "name": "Sam Obisanya",
+        "character": "Sam Obisanya",
         "aliases": [
             "Pinky Dick"
         ],
-        "actor": "Toheeb Jimoh",
+        "actorName": "Toheeb Jimoh",
         "occupation": [
             "Footballer",
             "Restaurant Owner"
@@ -257,11 +257,11 @@
         "image": "https://photos.airmail.news/l5j67o2k02folpvwx0p1qvyg41mr-557fb16ec05ad4fc69e25d8745b5030a.jpg"
     },
     {
-        "name": "Isaac McAdoo",
+        "character": "Isaac McAdoo",
         "aliases": [
             "McAdoodle-Doo"
         ],
-        "actor": "Kola Bokinni",
+        "actorName": "Kola Bokinni",
         "occupation": [
             "Footballer"
         ],
@@ -280,11 +280,11 @@
         "image": "https://static.wikia.nocookie.net/ted-lasso/images/3/3c/4339393-bebop_03_01.jpg/revision/latest?cb=20211108191015"
     },
     {
-        "name": "Colin Hughes",
+        "character": "Colin Hughes",
         "aliases": [
             "Jaundiced Worm "
         ],
-        "actor": "Billy Harris",
+        "actorName": "Billy Harris",
         "occupation": [
             "Footballer"
         ],
@@ -303,11 +303,11 @@
         "image": "https://static.wikia.nocookie.net/ted-lasso/images/4/4d/Colin_Hughes_%2812%29.jpg/revision/latest?cb=20211005083335"
     },
     {
-        "name": "Edwin Akufo",
+        "character": "Edwin Akufo",
         "aliases": [
             null
         ],
-        "actor": "Sam Richardson",
+        "actorName": "Sam Richardson",
         "occupation": [
             "Tech Firm Billionare"
         ],
@@ -327,13 +327,13 @@
         "image": "https://pbs.twimg.com/media/F03M8qrWcAApFZr.jpg:large"
     },
     {
-        "name": "Flo Collins",
+        "character": "Flo Collins",
         "aliases": [
             "Flo",
             "Sassy Smurf",
             "Sassy"
         ],
-        "actor": "Eliie Taylor",
+        "actorName": "Eliie Taylor",
         "occupation": [
             "Child Psychologist"
         ],
@@ -352,11 +352,11 @@
         "image": "https://static.wikia.nocookie.net/ted-lasso/images/c/cf/Flo_Collins.jpg/revision/latest?cb=20200911175746"
     },
     {
-        "name": "Trent Crimm",
+        "character": "Trent Crimm",
         "aliases": [
             null
         ],
-        "actor": "James Lance",
+        "actorName": "James Lance",
         "occupation": [
             "Reporter/Author",
             "Ex-Journalist"
@@ -377,11 +377,11 @@
         "image": "https://ew.com/thmb/VWX-AaAh0Lv-90M23awtSPSk7bY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/James-Lance-Ted-Lasso-042523-50bbecaa821a42b6990428fe722a2777.jpg"
     },
     {
-        "name": "Michelle Lasso",
+        "character": "Michelle Lasso",
         "aliases": [
             null
         ],
-        "actor": "Andrea Anders",
+        "actorName": "Andrea Anders",
         "occupation": [
             "Housewife"
         ],
@@ -400,11 +400,11 @@
         "image": "https://static.wikia.nocookie.net/ted-lasso/images/e/ea/MLS.jpg/revision/latest?cb=20220309033519"
     },
     {
-        "name": "Zava",
+        "character": "Zava",
         "aliases": [
             null
         ],
-        "actor": "Maximilian Osinski",
+        "actorName": "Maximilian Osinski",
         "occupation": [
             "Footballer",
             "Avocado Farmer"
@@ -420,7 +420,7 @@
             "Juventus",
             "AFC Ajax",
             "Los Angeles Football Club",
-            "13 Unnamed Clubs"
+            "13 Uncharacterd Clubs"
         ],
         "height": "6'5",
         "gender": "male",
@@ -428,11 +428,11 @@
         "image": "https://static.wikia.nocookie.net/ted-lasso/images/7/74/Zava.jpg/revision/latest?cb=20230325104126"
     },
     {
-        "name": "Jan Maas",
+        "character": "Jan Maas",
         "aliases": [
             "The Dutchman"
         ],
-        "actor": "Maximilian Osinski",
+        "actorName": "Maximilian Osinski",
         "occupation": [
             "Footballer"
         ],
@@ -451,11 +451,11 @@
         "image": "https://static.wikia.nocookie.net/ted-lasso/images/d/d1/Jan_Maas_%2813%29.jpg/revision/latest?cb=20211005083610"
     },
     {
-        "name": "Sharon Fieldstone",
+        "character": "Sharon Fieldstone",
         "aliases": [
             null
         ],
-        "actor": "Sarah Niles",
+        "actorName": "Sarah Niles",
         "occupation": [
             "Sports Psychologist"
         ],
@@ -474,11 +474,11 @@
         "image": "https://media.distractify.com/brand-img/jXAmO9NTg/0x0/sharon-ted-lasso-1678823990059.jpg"
     },
     {
-        "name": "Rupert Mannion",
+        "character": "Rupert Mannion",
         "aliases": [
             null
         ],
-        "actor": "Anthony Head",
+        "actorName": "Anthony Head",
         "occupation": [
             "Owner of West Ham United F.C."
         ],
