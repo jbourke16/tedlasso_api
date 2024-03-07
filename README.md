@@ -44,9 +44,16 @@ Begin your journey by navigating to the deployed <a href="">Ted Lasso API</a>.
 | quote          | String  | Quote by a character.                         |
 | characterName  | String  | The character who said the quote.             |
 
-## API Endpoints
 
-### GET
+## We're Going Full CRUD, Nerds
+
+### Create
+
+To create a character, episode, or quote using Postman, navigate to the proper endpoint and ensure you're in the Body. Also make sure you have Raw checked off and JSON selected.
+
+
+
+### Read (GET)
 
 To get a list of all characters, the endpoint is "/characters". Example:
 
@@ -85,15 +92,25 @@ The response for either of the above examples will look something like this:
 
 <img src="exampleres.png"></img>
 
-## Going Full CRUD
-
-### Create
-
-### Read
-
 ### Update
 
+To update a character, quote, or episode using Postman, ensure you're toggling to a PUT request and use the proper endpoint. To change a character for example, use the endpoint "characters/character/character name".
+
+Also ensure you have Raw checked off and JSON selected, and that you're in the Body. In the Body, put curly braces {} and put the key you'd like to change and the value you'd like to change it to.
+
+In the example below, I've changed the name "Colin Hughes" to "Colin Hugs".
+
+<img src="colinHughes.png"></img>
+
 ### Delete
+
+To delete a character using Postman, ensure you're toggling to a DELETE request and use "characters/character/character name" as the endpoint. 
+
+If successful, you should get a response that says "Character deleted."
+
+Example screenshot below:
+
+<img src="deleteTed.png"></img>
 
 
 ## How to Install

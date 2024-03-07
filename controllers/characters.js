@@ -54,9 +54,7 @@ export const deleteCharacter = async (req, res) => {
         const { id } = req.params
         const character = await Character.findByIdAndDelete(id);
 
-        if (deleted) {
-            return res.status(200).send("Character deleted.");
-        }
+        res.send(character)
     } catch (error) {
         console.error(error);
         res.status(500).json({ error: error.message });
@@ -96,7 +94,7 @@ export const getActorByName = async (req, res) => {
 export const updateCharacterByName = async (req, res) => {
     try {
         const { character } = req.params
-        const characterName = await Character.findOneAndUpdate(character.character);
+        const characterName = await Character.findOneAndUpdate({character: character}, req.body);
 
         res.status(201).json(characterName);
     } catch (error) {
@@ -108,9 +106,9 @@ export const updateCharacterByName = async (req, res) => {
 export const deleteCharacterByName = async (req, res) => {
     try {
         const { character } = req.params
-        const characterName = await Character.findOneAndDelete(character);
+        const characterName = await Character.findOneAndDelete({character: character});
 
-        if (deleted) {
+        if (characterName) {
             return res.status(200).send("Character deleted.");
         }
     } catch (error) {
@@ -118,3 +116,4 @@ export const deleteCharacterByName = async (req, res) => {
         res.status(500).json({ error: error.message });
     }
 }
+

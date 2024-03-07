@@ -11,6 +11,6 @@ router.delete('/:id', controllers.deleteCharacter);
 router.get('/character/:character', controllers.getCharacterByName);
 router.get('/actor/:actorName', controllers.getActorByName);
 router.put('/character/:character', controllers.updateCharacterByName);
-router.delete('/:character', controllers.deleteCharacterByName);
+router.delete('/character/:character', controllers.deleteCharacterByName);
 
 export default router;
