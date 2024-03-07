@@ -66,7 +66,7 @@ export const deleteQuote = async (req, res) => {
 export const getQuoteByQuote = async (req, res) => {
     try {
         const { quote } = req.params
-        const quoteByChar = await Quote.findOne({charQuote: quote});
+        const quoteByChar = await Quote.findOne({quote: quote});
 
         if (quoteByChar) {
             return res.json(quoteByChar);
@@ -81,7 +81,7 @@ export const getQuoteByQuote = async (req, res) => {
 export const getQuoteByCharacter = async (req, res) => {
     try {
         const { characterName } = req.params
-        const quote = await Quote.findOne({charQuote: characterName});
+        const quote = await Quote.findOne({characterName: characterName});
 
         if (quote) {
             return res.json(quote);

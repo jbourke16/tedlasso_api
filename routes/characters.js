@@ -8,7 +8,7 @@ router.get('/:id', controllers.getCharacter);
 router.post('/', controllers.createCharacter);
 router.put('/:id', controllers.updateCharacter);
 router.delete('/:id', controllers.deleteCharacter);
-router.get('/:character', controllers.getCharacterByName);
-router.get('/:actorName', controllers.getActorByName);
+router.get('/character/:character', controllers.getCharacterByName);
+router.get('/actor/:actorName', controllers.getActorByName);
 
 export default router;

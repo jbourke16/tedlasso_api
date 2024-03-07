@@ -81,7 +81,7 @@ export const getCharacterByName = async (req, res) => {
 export const getActorByName = async (req, res) => {
     try {
         const { actorName } = req.params
-        const character = await Character.findOne({actor: actorName});
+        const character = await Character.findOne({actorName: actorName});
 
         if (character) {
             return res.json(character);

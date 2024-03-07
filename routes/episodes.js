@@ -8,6 +8,6 @@ router.get('/:id', controllers.getEpisode);
 router.post('/', controllers.createEpisode);
 router.put('/:id', controllers.updateEpisode);
 router.delete('/:id', controllers.deleteEpisode);
-router.get('/:episodeName', controllers.getEpisodeByTitle)
+router.get('/episode/:episodeName', controllers.getEpisodeByTitle)
 
 export default router;

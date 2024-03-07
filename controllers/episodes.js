@@ -66,10 +66,10 @@ export const deleteEpisode = async (req, res) => {
 export const getEpisodeByTitle = async (req, res) => {
     try {
         const { episodeName } = req.params
-        const episodeTitle = await Episode.findOne({episode: episodeName});
+        const episode = await Episode.findOne({episodeName: episodeName});
 
-        if (episodetitle) {
-            return res.json(episodetitle);
+        if (episode) {
+            return res.json(episode);
         }
         res.status(404).json({ message: "Episode not found." });
     } catch (error) {
