@@ -16,13 +16,13 @@ Begin your journey by navigating to the deployed <a href="">Ted Lasso API</a>.
 
 | Field          | Type    | Description                                   |
 | -------------- | ------- | --------------------------------------------- |
-| name           | String  | The name of the character.                    |
+| character      | String  | The name of the character.                    |
 | aliases        | String  | The nicknames of characters.                  |
-| actor          | String  | The actor who plays the character.            |
+| actorName      | String  | The actor who plays the character.            |
 | occupation     | String  | The character's job.                          |
 | position       | String  | The character's position on the football team. |
 | number         | Number  | The character's jersey number.                |
-| affiliations   | String  | The character's comapany/club affilations.     |
+| affiliations   | String  | The character's company/club affiliations.    |
 | height         | String  | The character's height.                       |
 | gender         | String  | The character's gender.                       |
 | birthplace     | String  | The character's birthplace.                   |
@@ -32,17 +32,17 @@ Begin your journey by navigating to the deployed <a href="">Ted Lasso API</a>.
 
 | Field          | Type    | Description                                   |
 | -------------- | ------- | --------------------------------------------- |
-| episode-title  | String  | Title of episode.                             |
-| episode-number | String  | The season the episode is in and the ep number. |
+| episodeName    | String  | Title of episode.                             |
+| episodeNumber  | String  | The season the episode is in and the ep number. |
 | description    | String  | Description of the episode.                   |
-| imdb-rating    | String  | IMDB rating (out of 10).                      |
+| imdbRating     | String  | IMDB rating (out of 10).                      |
 
 ### Quote Schema
 
 | Field          | Type    | Description                                   |
 | -------------- | ------- | --------------------------------------------- |
 | quote          | String  | Quote by a character.                         |
-| character      | String  | The character who said the quote.             |
+| characterName  | String  | The character who said the quote.             |
 
 ## Technology Used
 
