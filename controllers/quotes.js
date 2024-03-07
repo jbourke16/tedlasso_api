@@ -77,3 +77,18 @@ export const getQuoteByQuote = async (req, res) => {
         res.status(500).json({ error: error.message });
     }
 }
+
+export const getQuoteByCharacter = async (req, res) => {
+    try {
+        const { characterName } = req.params
+        const quote = await Quote.findByOne({charQuote: characterName});
+
+        if (quote) {
+            return res.json(quote);
+        }
+        res.status(404).json({ message: "Quote not found." });
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ error: error.message });
+    }
+}
