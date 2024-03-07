@@ -54,7 +54,7 @@ export const deleteQuote = async (req, res) => {
         const { id } = req.params
         const quote = await Quote.findByIdAndDelete(id);
 
-        if (deleted) {
+        if (quote) {
             return res.status(200).send("Quote deleted.");
         }
     } catch (error) {
@@ -81,10 +81,10 @@ export const getQuoteByQuote = async (req, res) => {
 export const getQuoteByCharacter = async (req, res) => {
     try {
         const { characterName } = req.params
-        const quote = await Quote.findOne({characterName: characterName});
+        const quotes = await Quote.find({characterName: characterName});
 
-        if (quote) {
-            return res.json(quote);
+        if (quotes) {
+            return res.json(quotes);
         }
         res.status(404).json({ message: "Quote not found." });
     } catch (error) {
@@ -93,16 +93,3 @@ export const getQuoteByCharacter = async (req, res) => {
     }
 }
 
-export const deleteQuoteByName = async (req, res) => {
-    try {
-        const { characterName } = req.params
-        const quote = await Quote.findOneAndDelete(characterName);
-
-        if (deleted) {
-            return res.status(200).send(`Quotes by ${characterName} deleted.`);
-        }
-    } catch (error) {
-        console.error(error);
-        res.status(500).json({ error: error.message });
-    }
-}

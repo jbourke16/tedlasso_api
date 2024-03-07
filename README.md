@@ -49,7 +49,15 @@ Begin your journey by navigating to the deployed <a href="">Ted Lasso API</a>.
 
 ### Create
 
-To create a character, episode, or quote using Postman, navigate to the proper endpoint and ensure you're in the Body. Also make sure you have Raw checked off and JSON selected.
+To create a character, episode, or quote using Postman, toggle to POST. Then navigate to the proper endpoint and ensure you're in the Body. Also make sure you have Raw checked off and JSON selected.
+
+In the Body, use curly braces {} and input the proper key values. To keep the database streamlined, ensure you are entering key and values that match the data in the database.
+
+If your entry is successful, you should get a 201 message and you'll see your addition at the bottom!
+
+In the example below, I created a new episode titled "The King of the North".
+
+<img src="episodeCreate.png"></img>
 
 
 

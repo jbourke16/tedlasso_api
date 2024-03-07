@@ -14,11 +14,10 @@ app.use(logger());
 
 app.use('/', routes);
 
-db.on("Connected", () => {
+db.on("connected", () => {
     console.clear();
     console.log("Connected to MongoDB")
-});
-
-app.listen(PORT, () => {
-    console.log(`Express server is running on ${PORT}`)
+    app.listen(PORT, () => {
+        console.log(`Express server is running on ${PORT}`)
+    });
 });
