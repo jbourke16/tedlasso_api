@@ -47,7 +47,7 @@ Begin your journey by navigating to the deployed <a href="">Ted Lasso API</a>.
 
 ## We're Going Full CRUD, Nerds
 
-### Create
+### Create (POST)
 
 To create a character, episode, or quote using Postman, toggle to POST. Then navigate to the proper endpoint and ensure you're in the Body. Also make sure you have Raw checked off and JSON selected.
 
@@ -100,7 +100,7 @@ The response for either of the above examples will look something like this:
 
 <img src="exampleres.png"></img>
 
-### Update
+### Update (PUT)
 
 To update a character, quote, or episode using Postman, ensure you're toggling to a PUT request and use the proper endpoint. To change a character for example, use the endpoint "characters/character/character name".
 

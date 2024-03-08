@@ -496,5 +496,28 @@
         "gender": "male",
         "birthplace": "U.K.",
         "image": "https://static.wikia.nocookie.net/ted-lasso/images/c/ce/RupertMannion.jpg/revision/latest?cb=20230523065058"
+    },
+    {
+         "character": "Moe Bumbercatch",
+         "aliases": [
+              "Benedict"
+        ],
+         "actorName": "Mohammed Hashim",
+         "occupation": [
+            "Footballer"
+        ],
+        "position": [
+            "Center Midfielder"
+        ],
+        "number": [
+               21
+        ],    
+        "affiliations": [
+             "AFC Richmond"
+        ],
+        "height": "5'5",
+        "gender": "male",
+        "birthplace": "Switzerland",
+        "image": "https://static.wikia.nocookie.net/ted-lasso/images/9/97/Moe_Bumbercatch_%2821%29.jpg/revision/latest?cb=20211005083823"
     }
 ]
