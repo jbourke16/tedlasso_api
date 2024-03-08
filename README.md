@@ -128,7 +128,7 @@ If you'd like to install from this repo, make sure you have Node.js and npm inst
 1. Clone this repository to your local machine (`git clone SSH key`).
 2. Navigate to the root directory of the project in your terminal.
 3. Run the command `npm install` to install all dependencies listed in the `package.json` file.
-4. To run the project, use the command `npm start`.
+4. To run/open the project in VS Code, use the command `code .`.
 5. To deploy the database with data, run the command `node seed/data.js`.
 
 Note: It's important to make sure you have all the dependencies listed in the `package.json` file installed and correctly configured before running the project. The dependencies used for this project are CORS, Express, and Morgan.
