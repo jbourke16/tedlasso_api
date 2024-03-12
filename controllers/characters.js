@@ -27,7 +27,7 @@ export const getCharacter = async (req, res) => {
 
 export const createCharacter = async (req, res) => {
     try {
-        const character = new Characters(req.body);
+        const character = new Character(req.body);
         await character.save();
 
         res.status(201).json(character);
