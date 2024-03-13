@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-const connectionString = process.env.DB_URL || "mongodb://localhost:27017/tedlassoapi"
+const connectionString = process.env.DB_URL || "mongodb://127.0.0.1:27017/tedlassoapi"
 
 mongoose.set("returnOriginal", false);
 
